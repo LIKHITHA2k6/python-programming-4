@@ -1,0 +1,10 @@
+n = input("Enter the number:")
+freq = {}
+for i in n:
+if i in freq:
+freq[1]+=1
+else
+freq[i] = 1
+
+#printing results
+print("Count of all characters is :",freq)
